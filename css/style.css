@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+:root{
+    --bg-py:#777E90;
+    --bg-sy:#23262F
+}
+.container{
+    max-width: 1172px;
+    width: 100%;
+    padding: 0, 16px;
+    margin: 0 auto;
+}
+.container-lg{
+    max-width: 1312px;
+    width: 100%;
+    padding: 0, 16px;
+    margin: 0 auto;
+}
+img{
+    max-width: 100%;
+}
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+li{
+    list-style: none;
+}
+
+.header{
+    background: 1;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between; 
+    padding: 36px;
+}
+.navbar__logo{
+  align-items: center;
+  display: flex; 
+  
+}
+.navbar__lg{
+    margin-left: 5px;
+    font-size: 27px;
+    font-weight: 600;
+    color: var(--bg-sy);
+}
+.navbar__tag{
+    margin-left: 80px;
+    font-size: 14px;
+    font-weight: 700;
+    color:var(--bg-py);
+}
+.fa-chevron-down{
+    margin-left: 10px;
+}
+.navbar__collection{
+    display: flex;
+    gap: 24px;
+    align-items: center; 
+}
+.navbar__item{
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--bg-py);
+}
+.fa-globe{
+    margin-right: 10px;
+}
+.navbar__btn{
+    padding: 12px 16px ;
+    color: var(--bg-sy);
+    font-size: 14px;
+    font-weight: 700;
+    border: 2px solid #E6E8EC;
+    border-radius: 90px;
+    background: none;
+    cursor: pointer;
+}
+button:active{
+    transform: scale(.96);
+}
+i{
+    color:var(--bg-py);
+}
+.fa-bell{
+    cursor: pointer;
+}
+.navbar__menu{
+    display: none;
+}
+             /* hero */
+.hero{
+    background: url("../assets/foto\ \(3\).png") no-repeat center/cover;
+    width: 100%;
+    height: 708px;
+    border-radius: 20px;
+}
+.hero__content{
+    width: 100%;
+    height: 80%;
+    background: linear-gradient(rgba(236, 248, 252, 0.84),
+    rgba(236, 248, 252, 0.81),#ECF8FC00);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 167px;
+    gap: 16px;
+    border-radius: 20px 20px 0 0;
+}
+.hero__content > h2{
+    font-size: 96px;
+    font-weight: 700;
+    color: var(--bg-sy);
+}
+.hero__content > p{
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--bg-sy);
+}
+.hero__btn{
+    padding: 16px 24px;
+    border: none;
+    background: #3B71FE;
+    border-radius: 90px;
+    color: #FCFCFD;
+    cursor: pointer;
+}

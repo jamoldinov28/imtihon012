@@ -1,0 +1,10 @@
+@media (max-width: 950px) {
+
+    .navbar__menu{
+        display: block;
+     }
+     
+    .navbar__item{
+        display:none ;
+    }
+}
